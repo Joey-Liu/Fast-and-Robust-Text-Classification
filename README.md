@@ -13,11 +13,7 @@ benchmark text classification tasks, we demonstrate that the framework gains con
 
 | ![Our framework](img/budget_dag_new.png)            |
 | ---------------------------------------- |
-| *Our proposed framework. Given a selection rate, a
-selector is designed to select relevant words and pass them to
-the classifier. To make the classifier robust against fractured
-sentences, we aggregate outputs from different selectors and
-train the classifier on the aggregated corpus.* |
+| *Our proposed framework. Given a selection rate, a selector is designed to select relevant words and pass them to the classifier. To make the classifier robust against fractured sentences, we aggregate outputs from different selectors and train the classifier on the aggregated corpus.* |
 
 - ### Source Code Notes: Coming soon. 
 
