@@ -11,14 +11,11 @@
 We design a generic framework for learning a robust text classification model that achieves high accuracy under different selection budgets  (a.k.a selection rates) at test-time. We take a different approach from existing methods and learn to dynamically filter a large fraction of unimportant words by a low-complexity selector such that any high-complexity classifier only needs to process a small fraction of text, relevant for the target task. To this end, we propose a data aggregation method for training the classifier, allowing it to achieve competitive performance on fractured sentences. On four
 benchmark text classification tasks, we demonstrate that the framework gains consistent speedup with little degradation in accuracy on various selection budgets.
 
-| ![bias](img/bias_teaser.png)             |
+| ![Our framework](img/bias_teaser.png)             |
 | ---------------------------------------- |
 | *Structure prediction can help the model to build the correlations between different parts. However it will also cause some bias problem.* |
 
-In our work, we study data and models associated with multilabel object classification (MLC) and visual semantic role labeling (vSRL). We find that (a) datasets for these tasks contain significant gender bias and (b) models trained on these datasets further amplify existing bias. For example, the activity **cooking** is over 33% more likely to involve females than males in a training set, and a trained model further amplifies the disparity to 68% at test time. We propose to inject corpus-level constraints for calibrating existing structured prediction models and design an algorithm based on Lagrangian relaxation for collective inference. Our method results in almost no performance loss for the underlying recognition task but decreases the magnitude of bias amplification by 47.5% and 40.5% for multilabel classification and visual semantic role labeling, respectively.
-
-
-- ### Source Code
+- ### Source Code Notes: Coming soon. 
 
 
 
@@ -39,7 +36,7 @@ In our work, we study data and models associated with multilabel object classifi
  
 
 - ### Results
-| ![bias](img/bias_teaser.png)             |
+| ![Results](img/bias_teaser.png)             |
 | ---------------------------------------- |
 | *Structure prediction can help the model to build the correlations between different parts. However it will also cause some bias problem.* |
 
