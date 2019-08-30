@@ -3,7 +3,7 @@
 [Md Rizwan Parvez](https://sites.google.com/site/parvezmdrizwan/), [Tolga Bolukbasi](http://people.bu.edu/tolgab/) [Kai-Wei Chang](http://www.cs.ucla.edu/~kc2wc/),[Venkatesh Saligrama](https://www.bu.edu/eng/profile/venkatesh-saligrama/): EMNLP-IJCAI 2019
 
 
-**For details, please refer to [this paper]()**
+**For details, please refer to [this paper](https://arxiv.org/abs/1808.08270)**
 
 
 - ### Abstract
