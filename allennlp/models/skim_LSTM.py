@@ -29,22 +29,6 @@ def convert_to_minutes(s):
 @Model.register("skim_lstm")
 class SkimLSTM(Model):
     """
-    This class implements the Biattentive Classification Network model described
-    in section 5 of `Learned in Translation: Contextualized Word Vectors (NIPS 2017)
-    <https://arxiv.org/abs/1708.00107>`_ for text classification. We assume we're
-    given a piece of text, and we predict some output label.
-
-    At a high level, the model starts by embedding the tokens and running them through
-    a feed-forward neural net (``pre_encode_feedforward``). Then, we encode these
-    representations with a ``Seq2SeqEncoder`` (``encoder``). We run biattention
-    on the encoder output represenatations (self-attention in this case, since
-    the two representations that typically go into biattention are identical) and
-    get out an attentive vector representation of the text. We combine this text
-    representation with the encoder outputs computed earlier, and then run this through
-    yet another ``Seq2SeqEncoder`` (the ``integrator``). Lastly, we take the output of the
-    integrator and max, min, mean, and self-attention pool to create a final representation,
-    which is passed through a maxout network or some feed-forward layers
-    to output a classification (``output_layer``).
 
     Parameters
     ----------
