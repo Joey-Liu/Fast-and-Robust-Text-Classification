@@ -18,7 +18,7 @@ benchmark text classification tasks, we demonstrate that the framework gains con
 - ### Source Code Notes: 
 please see the run_scripts ``run_experiments.py``, ``lstm_experiments.py``, source code [skim_LSTM.py](https://github.com/uclanlp/Fast-and-Robust-Text-Classification/blob/master/allennlp/models/skim_LSTM.py])
 
-See an example source code of L1 regularized bag-of-words selector: (i) [train model](https://github.com/uclanlp/Fast-and-Robust-Text-Classification/blob/master/imdb_main_L1_regression.py) (ii) [generate slector output text using the trained model](https://github.com/uclanlp/Fast-and-Robust-Text-Classification/blob/master/data_generator_for_allaennlp_L1_LSTM.py)
+See an example source code of L1 regularized bag-of-words selector: (i) [train model](https://github.com/uclanlp/Fast-and-Robust-Text-Classification/blob/master/imdb_main_L1_regression.py) (ii) [generate selector output text using the trained model](https://github.com/uclanlp/Fast-and-Robust-Text-Classification/blob/master/data_generator_for_allaennlp_L1_LSTM.py)
 
 
 - ### Data
