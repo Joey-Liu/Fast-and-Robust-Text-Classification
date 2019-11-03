@@ -29,8 +29,8 @@ See an example source code of L1 regularized bag-of-words selector (i) [train_mo
  @article{parvez2018building,
   title={Building a Robust Text Classifier on a Test-Time Budget},
   author={Parvez, Md Rizwan and Balukbasi, Tolga and Sarigrama, Venkatesh},
-  journal={arXiv preprint arXiv:1808.08270},
-  year={2018}
+  booktile={emnlp}
+  year={2019}
 }
  ```
  
