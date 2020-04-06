@@ -1,5 +1,5 @@
 ###############################################################################
-# Author: Wasi Ahmad
+# Author: Md Rizwan Parvez
 # Project: Biattentive Classification Network for Sentence Classification
 # Date Created: 01/06/2018
 #
